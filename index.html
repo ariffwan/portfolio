@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ariff Norzalani | Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark">
+
+<button class="theme-btn" onclick="toggleTheme()">☀️</button>
+
+<div class="slides" id="slides">
+
+<!-- HERO -->
+<section class="slide">
+  <div class="hero">
+
+    <div class="hero-main">
+      <h1>Ariff Norzalani</h1>
+
+      <p class="role">
+        Software Developer — Enterprise Systems & Automation
+      </p>
+
+      <p class="summary">
+        Delivering practical digital solutions using Mendix and .NET
+        to streamline operations, automate workflows, and improve
+        business efficiency across organizations.
+      </p>
+
+      <div class="links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Download CV</a>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <h3>Professional Profile</h3>
+
+      <p>
+        Experienced in building enterprise applications, integrating
+        systems, and supporting digital transformation initiatives
+        within corporate environments.
+      </p>
+
+      <ul>
+        <li>Enterprise application development</li>
+        <li>Process automation & integration</li>
+        <li>Dashboard & reporting solutions</li>
+        <li>Cross-functional collaboration</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="slide">
+  <div>
+    <h2>Projects</h2>
+
+    <div class="project-grid" id="projectGrid">
+
+      <div class="project-tile"
+           data-title="Financial Planning & Budgeting System"
+           data-desc="Enterprise application for managing expenses, planning budgets, and providing management dashboards.">
+        Financial Planning System
+      </div>
+
+      <div class="project-tile"
+           data-title="Workflow Automation Platform"
+           data-desc="Internal applications replacing manual processes across departments.">
+        Workflow Automation
+      </div>
+
+      <div class="project-tile"
+           data-title="Integration Services"
+           data-desc="REST-based integrations connecting multiple enterprise systems.">
+        System Integration
+      </div>
+
+      <div class="project-tile"
+           data-title="Reporting Dashboard"
+           data-desc="Interactive dashboards delivering management insights and analytics.">
+        Reporting Dashboard
+      </div>
+
+    </div>
+
+    <div id="projectDetail" class="project-detail hidden">
+      <h3 id="projectTitle"></h3>
+      <p id="projectDesc"></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="slide">
+  <div>
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">Mendix</div>
+      <div class="skill-card">.NET / C#</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">HTML / CSS / JS</div>
+      <div class="skill-card">Git</div>
+      <div class="skill-card">REST APIs</div>
+      <div class="skill-card">Automation</div>
+      <div class="skill-card">Integration</div>
+      <div class="skill-card">Reporting</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="slide">
+  <div class="contact">
+    <h2>Contact</h2>
+
+    <p class="contact-intro">
+      Open to professional opportunities, collaborations,
+      and discussions related to enterprise systems,
+      automation, and digital solutions.
+    </p>
+
+    <div class="contact-card">
+      <div class="item"><span>Email</span><a href="mailto:you@email.com">you@email.com</a></div>
+      <div class="item"><span>LinkedIn</span><a href="#">linkedin.com/in/ariff</a></div>
+      <div class="item"><span>GitHub</span><a href="#">github.com/ariff</a></div>
+      <div class="item"><span>Location</span><p>Malaysia</p></div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="dots" id="dots"></div>
+<div id="overlayRoot"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
