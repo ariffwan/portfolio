@@ -3,152 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ariff Norzalani | Developer</title>
+<title>Wan Ahmad Ariff</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="dark">
+<body>
 
-<button class="theme-btn" onclick="toggleTheme()">☀️</button>
+<!-- Background animation -->
+<canvas id="bg"></canvas>
 
-<div class="slides" id="slides">
+<!-- Navbar -->
+<nav class="menu">
+  <a href="#">Skills</a>
+  <a href="#">Projects</a>
+  <a href="#">Experiences</a>
+  <a href="#">Contact Me</a>
+</nav>
 
-<!-- HERO -->
-<section class="slide">
-  <div class="hero">
+<!-- Hero -->
+<section class="hero">
+  <h1 class="intro">
+    Hello, I'm <span class="name">Ariff.</span>
+  </h1>
 
-    <div class="hero-main">
-      <h1>Ariff Norzalani</h1>
+  <h2 class="intro">
+    I'm a <span class="typing" id="typed"></span><span class="cursor">|</span>
+  </h2>
 
-      <p class="role">
-        Software Developer — Enterprise Systems & Automation
-      </p>
-
-      <p class="summary">
-        Delivering practical digital solutions using Mendix and .NET
-        to streamline operations, automate workflows, and improve
-        business efficiency across organizations.
-      </p>
-
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-        <a href="#">Download CV</a>
-      </div>
-    </div>
-
-    <div class="profile-card">
-      <h3>Professional Profile</h3>
-
-      <p>
-        Experienced in building enterprise applications, integrating
-        systems, and supporting digital transformation initiatives
-        within corporate environments.
-      </p>
-
-      <ul>
-        <li>Enterprise application development</li>
-        <li>Process automation & integration</li>
-        <li>Dashboard & reporting solutions</li>
-        <li>Cross-functional collaboration</li>
-      </ul>
-    </div>
-
-  </div>
+  <p class="subtext">
+    Passionately creating innovative digital experiences,
+    rooted in user needs.
+  </p>
 </section>
-
-<!-- PROJECTS -->
-<section class="slide">
-  <div>
-    <h2>Projects</h2>
-
-    <div class="project-grid" id="projectGrid">
-
-      <a href="https://ariffwan.github.io/prayer-time" target="_blank">
-  <div class="project-tile"
-       data-title="Prayer Time"
-       data-desc="Prayer time information. Fetch using API with playable zikir.">
-    Prayer Time
-  </div>
-</a>
-
-
-      <div class="project-tile"
-           data-title="Workflow Automation Platform"
-           data-desc="Internal applications replacing manual processes across departments.">
-        Workflow Automation
-      </div>
-
-      <div class="project-tile"
-           data-title="Integration Services"
-           data-desc="REST-based integrations connecting multiple enterprise systems.">
-        System Integration
-      </div>
-
-      <div class="project-tile"
-           data-title="Reporting Dashboard"
-           data-desc="Interactive dashboards delivering management insights and analytics.">
-        Reporting Dashboard
-      </div>
-
-    </div>
-
-    <div id="projectDetail" class="project-detail hidden">
-      <h3 id="projectTitle"></h3>
-      <p id="projectDesc"></p>
-    </div>
-
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section class="slide">
-  <div>
-    <h2>Skills</h2>
-
-    <div class="skills-grid">
-      <div class="skill-card">Mendix</div>
-      <div class="skill-card">.NET / C#</div>
-      <div class="skill-card">SQL</div>
-      <div class="skill-card">HTML / CSS / JS</div>
-      <div class="skill-card">Git</div>
-      <div class="skill-card">REST APIs</div>
-      <div class="skill-card">Automation</div>
-      <div class="skill-card">Integration</div>
-      <div class="skill-card">Reporting</div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="slide">
-  <div class="contact">
-    <h2>Contact</h2>
-
-    <p class="contact-intro">
-      Open to professional opportunities, collaborations,
-      and discussions related to enterprise systems,
-      automation, and digital solutions.
-    </p>
-
-    <div class="contact-card">
-      <div class="item"><span>Email</span><a href="mailto:you@email.com">you@email.com</a></div>
-      <div class="item"><span>LinkedIn</span><a href="#">linkedin.com/in/ariff</a></div>
-      <div class="item"><span>GitHub</span><a href="#">github.com/ariff</a></div>
-      <div class="item"><span>Location</span><p>Malaysia</p></div>
-    </div>
-  </div>
-</section>
-
-</div>
-
-<div class="dots" id="dots"></div>
-<div id="overlayRoot"></div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
-
-
